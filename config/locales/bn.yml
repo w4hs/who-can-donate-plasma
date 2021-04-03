@@ -29,10 +29,10 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
+bn:
+  hello: হ্যালো ওয়ার্লড
   site:
-    name: Plasma Donor
+    name: প্লাজমা দাতার ডাটাবেইজ
   users:
-    registration: Registration
-    sign_in: Sign In
+    registration: নিবন্ধন
+    sign_in: লগিন করুন

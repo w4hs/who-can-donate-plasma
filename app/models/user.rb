@@ -52,7 +52,7 @@ class User < ApplicationRecord
 
   validates :phone, uniqueness: true
 
-  validates :gender, inclusion: %(male female others)
+  validates :gender, inclusion: {in: %(male female others) }
 
   validates :blood_group, inclusion: Constants::BLOOD_GROUPS
 end
