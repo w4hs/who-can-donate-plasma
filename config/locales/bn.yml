@@ -34,5 +34,14 @@ bn:
   site:
     name: প্লাজমা দাতার ডাটাবেইজ
   users:
+    gender: লিঙ্গ
+    genders:
+      male: পুরুষ
+      female: মহিলা
+      others: অন্যান্য
+    date_of_birth: জন্ম তারিখ
+    email: ইমেইল
+    password: পাসওয়ার্ড
     registration: নিবন্ধন
     sign_in: লগিন করুন
+    remember_me: সংরক্ষন করুন

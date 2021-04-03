@@ -34,5 +34,14 @@ en:
   site:
     name: Plasma Donor
   users:
+    date_of_birth: Date of Birth
+    gender: Gender
+    genders:
+      male: Male
+      female: Female
+      others: Others
+    email: Email
+    password: Password
     registration: Registration
     sign_in: Sign In
+    remember_me: Remember

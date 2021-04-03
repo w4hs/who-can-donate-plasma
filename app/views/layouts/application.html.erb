@@ -44,6 +44,7 @@
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
             <% if current_user %>
+            <li><%= link_to current_user.name, edit_user_registration_path %></li>
             <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
             <% else %>
             <li><%= link_to t('users.sign_in'), new_user_session_path %></li>
