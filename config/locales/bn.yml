@@ -29,19 +29,19 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
+bn:
+  hello: হ্যালো ওয়ার্লড
   site:
-    name: Plasma Donor
+    name: প্লাজমা দাতার ডাটাবেইজ
   users:
-    date_of_birth: Date of Birth
-    gender: Gender
+    gender: লিঙ্গ
     genders:
-      male: Male
-      female: Female
-      others: Others
-    email: Email
-    password: Password
-    registration: Registration
-    sign_in: Sign In
-    remember_me: Remember
+      male: পুরুষ
+      female: মহিলা
+      others: অন্যান্য
+    date_of_birth: জন্ম তারিখ
+    email: ইমেইল
+    password: পাসওয়ার্ড
+    registration: নিবন্ধন
+    sign_in: লগিন করুন
+    remember_me: সংরক্ষন করুন

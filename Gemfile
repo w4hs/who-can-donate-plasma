@@ -38,6 +38,11 @@ group :development do
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
+
+  gem 'rspec-rails'
+  gem 'factory_bot'
+  gem 'factory_bot_rails'
+  gem 'faker'
 end
 
 group :test do
@@ -50,3 +55,15 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# frontend
+gem 'jquery-rails'
+gem "twitter-bootstrap-rails"
+gem 'momentjs-rails', '>= 2.9.0'
+gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
+
+# Authentications and Authorisations
+gem 'devise'
+
+# tools
+gem 'annotate'
